@@ -1,10 +1,80 @@
 body{
-    background: url('./assets/img/abkorim.jpg');
-    background-size: 100% 100%;
-    background-position: center center;
+    padding: 0;
+    margin: 0;
+    background: url(assets/img/abkorim.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: 669px -244px;
     background-repeat: no-repeat;
-    height: 100px;
+    font-family: 'Ubuntu', sans-serif;
+}
+body *{
+    padding: 0;
+    margin: 0;
+}
+.contn{
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
+    line-height: 1em;
+}
+.container{
+    background: linear-gradient(2deg, #0ab3ab, #22bbb46b);
+    /* width: 80%; */
+    margin: auto;
+    padding: 20px 16%;
+    /* backdrop-filter: blur(2px);*/
 }
 .header {
-    height: 100px;
+    
+}
+.header h1{
+    font-size: 100px;
+}
+.protfollio-section{
+    margin-top: 20px;
+}
+.section-head{
+    padding: 10px;
+}
+.protfolio-items{
+    /* background: #ccc; */
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+.protfolio-items .item{
+    /* background: #ccc; */
+    padding: 45px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid #000; */
+    border-radius: 10px;
+    box-shadow: inset 0 0 4px #00000078;
+}
+.protfolio-items .icon{
+    font-size: 100px;
+    color: rgb(68, 9, 179);
+    text-shadow: 3px -1px 5px #000000bf;
+}
+.protfolio-items a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: rgb(68, 9, 179);
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px rgba(68, 9, 179);
+    margin-top: 10px;
+}
+.protfolio-items .name{
+    font-size: 25px;
+    margin: 15px 0px;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px #000;
+    color: #cccccc;
 }
