@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="../style.css"> -->
+    <title>COVID-19 MAP</title>
+    <style>
+        /* map-section */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .map-section {
+            box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+            position: relative;
+        }
+
+        .map-section #map {
+            position: fixed !important;
+            width: 100%;
+            height: 100%;
+        }
+
+        .map-section .data-area {
+            position: absolute;
+            left: 40px;
+            top: 60px;
+            background: #ffffff75;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 4px #0000005c;
+            backdrop-filter: blur(6px);
+        }
+    </style>
+</head>
+
+<body>
+    <section class="map-section">
+        <div id="map"></div>
+        <div class="data-area">
+            <table>
+                <tr>
+                    <td>country</td>
+                    <td class="country">0</td>
+                </tr>
+                <tr>
+                    <td>cases</td>
+                    <td class="cases">0</td>
+                </tr>
+                <tr>
+                    <td>recovered</td>
+                    <td class="recovered">0</td>
+                </tr>
+                <tr>
+                    <td>active</td>
+                    <td class="active">0</td>
+                </tr>
+                <tr>
+                    <td>deaths</td>
+                    <td class="deaths">0</td>
+                </tr>
+                <tr>
+                    <td>todayCases</td>
+                    <td class="todayCases">0</td>
+                </tr>
+                <tr>
+                    <td>todayDeaths</td>
+                    <td class="todayDeaths">0</td>
+                </tr>
+                <tr>
+                    <td>critical</td>
+                    <td class="critical">0</td>
+                </tr>
+                <tr>
+                    <td>casesPerOneMillion</td>
+                    <td class="casesPerOneMillion">0</td>
+                </tr>
+                <tr>
+                    <td>deathsPerOneMillion</td>
+                    <td class="deathsPerOneMillion">0</td>
+                </tr>
+                <tr>
+                    <td>updated</td>
+                    <td class="updated">0</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/map/dateTime.js"></script>
+    <script src="../assets/map/map.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAY3tnwpStQUa_gFnc9iyQbeGwIh2XWWB4&callback=initMap"></script>
+</body>
+
+</html>
