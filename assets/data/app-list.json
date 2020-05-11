@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "name": "quidem",
+        "discription": "sunt qui excepturi placeat culpasunt qui excepturi placeat culpa",
+        "ratting": 5,
+        "logo": "https://dummyimage.com/600x400/000/fff",
+        "appLink": null,
+        "screenshorts": [
+            "https://dummyimage.com/540x960/000/fff",
+            "https://dummyimage.com/540x960/fff/000",
+            "https://dummyimage.com/540x960/000/fff",
+            "https://dummyimage.com/540x960/fff/000",
+            "https://dummyimage.com/540x960/000/fff",
+            "https://dummyimage.com/540x960/fff/000"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "quidem",
+        "discription": "sunt qui excepturi placeat cusunt qui excepturi placeat culpasunt qui excepturi placeat culpalpa",
+        "ratting": 5,
+        "logo": "https://dummyimage.com/600x400/000/fff",
+        "appLink": null,
+        "screenshorts": [
+            "https://dummyimage.com/540x960/000/fff",
+            "https://dummyimage.com/540x960/fff/000",
+            "https://dummyimage.com/540x960/000/fff",
+            "https://dummyimage.com/540x960/fff/000",
+            "https://dummyimage.com/540x960/000/fff",
+            "https://dummyimage.com/540x960/fff/000"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "quidem",
+        "discription": "sunt qui excepturi sunt qui excepturi placeat culpaplaceat culpa",
+        "ratting": 5,
+        "logo": "https://dummyimage.com/600x400/000/fff",
+        "appLink": null,
+        "screenshorts": [
+            "https://dummyimage.com/540x960/000/fff",
+            "https://dummyimage.com/540x960/fff/000",
+            "https://dummyimage.com/540x960/000/fff",
+            "https://dummyimage.com/540x960/fff/000",
+            "https://dummyimage.com/540x960/000/fff",
+            "https://dummyimage.com/540x960/fff/000"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "quidem",
+        "discription": "sunt qui exceptursunt qui excepturi placeat culpasunt qui excepturi placeat culpasunt qui excepturi placeat culpai placeat culpa",
+        "ratting": 5,
+        "logo": "https://dummyimage.com/600x400/000/fff",
+        "appLink": null,
+        "screenshorts": [
+            "https://dummyimage.com/540x960/000/fff",
+            "https://dummyimage.com/540x960/fff/000",
+            "https://dummyimage.com/540x960/000/fff",
+            "https://dummyimage.com/540x960/fff/000",
+            "https://dummyimage.com/540x960/000/fff",
+            "https://dummyimage.com/540x960/fff/000"
+        ]
+    }
+]
