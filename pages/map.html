@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.css' rel='stylesheet' />
     <!-- <link rel="stylesheet" href="../style.css"> -->
     <title>COVID-19 MAP</title>
     <style>
@@ -33,6 +35,29 @@
             border-radius: 10px;
             box-shadow: 0 0 4px #0000005c;
             backdrop-filter: blur(6px);
+            display: none;
+        }
+
+        .css-icon {
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            background: #ffbb0096;
+        }
+
+        .leaflet-bottom {
+            display: none;
+        }
+
+        .flagImage {
+            width: 30px;
+            height: auto;
+        }
+
+        .leaflet-popup-content h4{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
     </style>
 </head>
@@ -93,8 +118,7 @@
     <script src="../assets/js/jquery.js"></script>
     <script src="../assets/map/dateTime.js"></script>
     <script src="../assets/map/map.js"></script>
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap"></script>
+
 </body>
 
 </html>
